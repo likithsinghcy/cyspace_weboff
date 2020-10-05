@@ -26,4 +26,9 @@ body{
 
 .center-text{
     text-align: center;
+    }
+
+.vertical-center{
+    padding-top:90px;
+    
 }
