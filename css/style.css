@@ -1,68 +1,3 @@
-body{
-     color: #02203c;
-  
-}
-h1,h2,h3,h4,h5,h6,a,p,li{
-    
-    font-family: Ubuntu,Helvetica,Arial,sans-serif;
-}
-#service-head{
-
-    margin-top: 60px;
-}
-
-#middle-section{
-    margin-top: 60px;
-  margin-bottom:60px;
-  height: 200px;
-  background-color:#38cbdd;
-  width:100%;
-
-}
-footer{
-    width: 100%;
-    background-color: #02203c;
-
-}
-
-#footer-height{
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-
-
-}
-h3.footer,p.footer {
-
-    color: #fff;
-}
-
-#logo-footer{
-    margin-bottom:10px;
-}
-
-.center-text{
-    text-align: center;
-    }
-
-.vertical-center{
-    padding-top:90px;
-    
-}
-
-@media screen and (max-width: 992px) {
-
-    
-#middle-section{
-    
-    height: auto;
-    padding-bottom: 20px;
- 
-
-}
-
-
-}
 
 
 /* ubuntu-regular - latin */
@@ -84,4 +19,70 @@ h3.footer,p.footer {
     src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
          url('https://assets.algoexpert.io/ga105e0a2b0-prod/dist/fonts/ubuntu-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('https://assets.algoexpert.io/ga105e0a2b0-prod/dist/fonts/ubuntu-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+  }body{
+     color: #02203c;
+  
+}
+h1,h2,h3,h4,h5,h6,a,p,li{
+    
+    font-family: Ubuntu,Helvetica,Arial,sans-serif;
+}
+#service-head{
+
+    margin-top: 60px;
+}
+
+#middle-section{
+    padding-top: 60px;
+  padding-bottom:60px;
+  height: 200px;
+  background-color:#38cbdd;
+  width:100%;
+
+}
+footer{
+    width: 100%;
+    background-color: #02203c;
+
+}
+
+#footer-height{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+
+}
+h3.footer,p.footer {
+
+    color: #fff;
+    font-family: Ubuntu,Helvetica,Arial,sans-serif;
+}
+
+#logo-footer{
+    margin-bottom:10px;
+}
+
+.center-text{
+    text-align: center;
+    }
+
+.vertical-center{
+    padding-top:35px;
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    
+#middle-section{
+    
+    height: auto;
+    padding-bottom: 20px;
+ 
+
+}
+
+
+}
+
