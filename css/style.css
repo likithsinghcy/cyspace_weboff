@@ -1,7 +1,11 @@
 body{
-  background-color: bisque;
+     color: #02203c;
+  
 }
-
+h1,h2,h3,h4,h5,h6,a,p,li{
+    
+    font-family: Ubuntu,Helvetica,Arial,sans-serif;
+}
 #service-head{
 
     margin-top: 60px;
@@ -12,12 +16,23 @@ body{
   margin-bottom:60px;
   height: 200px;
   background-color:#38cbdd;
+  width:100%;
+
+}
+footer{
+    width: 100%;
+    background-color: #02203c;
 
 }
 
 #footer-height{
+    width: 100%;
     margin-bottom: 20px;
 
+}
+h3.footer,p.footer {
+
+    color: #fff;
 }
 
 #logo-footer{
@@ -32,3 +47,39 @@ body{
     padding-top:90px;
     
 }
+
+@media screen and (max-width: 992px) {
+
+    
+#middle-section{
+    
+    height: auto;
+    padding-bottom: 20px;
+ 
+
+}
+
+
+}
+
+
+/* ubuntu-regular - latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+         url('https://assets.algoexpert.io/ga105e0a2b0-prod/dist/fonts/ubuntu-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://assets.algoexpert.io/ga105e0a2b0-prod/dist/fonts/ubuntu-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* ubuntu-700 - latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+         url('https://assets.algoexpert.io/ga105e0a2b0-prod/dist/fonts/ubuntu-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('https://assets.algoexpert.io/ga105e0a2b0-prod/dist/fonts/ubuntu-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
