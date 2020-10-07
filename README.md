@@ -10,5 +10,5 @@ website for cypace office
 
 ### Update for 07-10-2020 
 1. Now added a new refence website 
- now you can see the website here : https://likithsinghcy.github.io/cyspace_weboff/refere_websites/aronix/aronix
+ now you can see the website here : https://likithsinghcy.github.io/cyspace_weboff/refer_websites/aronix/aronix
  
